@@ -6,7 +6,7 @@
 /private/*
 
 # Files
-*.quarto_ipynb
+**/*.quarto_ipynb
 *.pdf
 /code/src/*
 !/code/src/*.R
