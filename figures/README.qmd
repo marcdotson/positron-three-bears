@@ -1,0 +1,6 @@
+---
+title: "Figures"
+format: gfm
+---
+
+PNG images and plots.

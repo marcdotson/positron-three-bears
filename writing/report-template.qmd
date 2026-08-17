@@ -1,0 +1,38 @@
+---
+title: "Project Report"
+format: typst
+---
+
+## Plan
+
+- Clearly specify the business objective
+- Consider the ideal data and its story
+
+## Build
+
+- Formalize the objective as a function
+- Translate the data story into a model
+
+## Explore
+
+- Understand the data and its limitations
+
+## Reconcile
+
+- Reconcile the model and the data
+
+## Fit
+
+- Estimate the model parameters
+
+## Evaluate
+
+- Interpret results and revise as needed
+
+## Predict
+
+- Use prediction to make model implications clear
+
+## Communicate
+
+- Make insights accessible for decision-makers

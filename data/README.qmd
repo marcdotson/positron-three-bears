@@ -1,0 +1,6 @@
+---
+title: "Data"
+format: gfm
+---
+
+Simulated and real data, the latter not pushed.

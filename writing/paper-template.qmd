@@ -1,0 +1,66 @@
+---
+title: "Paper"
+author: 
+  - name: "Author 1"
+    affiliation: "University of Whatever"
+    email: "author1@example.edu"
+  - name: "Author 2"
+    affiliation: "University of Whatever"
+    email: "author2@example.edu"
+date: "November 26, 2050"
+abstract: | 
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+keywords:
+  - "Keyword 1"
+  - "Keyword 2"
+bibliography: references.bib
+format: 
+  jasa-pdf: 
+    keep-tex: true
+    cite-method: natbib
+    journal:
+      blinded: false
+execute:
+  echo: false
+---
+
+```{python}
+#| label: setup
+#| warning: false
+#| message: false
+
+import os
+import polars as pl
+import seaborn.objects as so
+```
+
+## Introduction {#sec-intro}
+
+We can can include regular single-paper citations using `[@citation]` like [@Allenby:1998] or multiple-paper citations using `[@citation; @citation]` like [@Allenby:1998; @Watanabe:2010], in-line citations using `@citation` like @Allenby:1998, or citations without the Author using `[-@citation]` like [-@Allenby:1998].
+
+Additionally, each section and sub-section can be referenced by adding a `{#sec-label}` label to any heading and referencing `@sec-label`. For example, `## Introduction {#sec-intro}` would be referenced as `@sec-intro` like @sec-intro (note that the `seg-` prefix is required).
+
+## Model Specification {#sec-model}
+
+We can include math using LaTeX within the `$` or `$$` syntax. For example, `$y = \beta x + \epsilon$` produces $y = \beta x + \epsilon$ and
+$$
+Pr(y_{n,h}=p|\beta_n) = \frac{\exp{(x_{p,h}'\beta_n)}}{\sum_{p=1}^P\exp{(x_{p,h}'\beta_n)}}
+$$ {#eq-mnl}
+
+\noindent is produced using the `$$` syntax. The equation has to be labeled with `{#eq-label}` directly following the closing `$$` so it can be referenced with `@eq-label`. For example, the above equation `{#eq-mnl}` would be referenced as `@eq-mnl` like @eq-mnl (note that the `eq-` prefix is required).
+
+## Empirical Application {#sec-data}
+
+Using Quarto means we can use Markdown, Python, and LaTeX (along with other languages) interchangeably.
+
+We can include tables and figures. If Markdown `![]()` syntax is used to include figures, the label would be `{#fig-slug}` and the figure would be referenced with `@fig-slug` (note that the `fig-` prefix is required).
+
+## Results {#sec-results}
+
+Our tables and figures can be dynamically generated.
+
+## Conclusion {#sec-concl}
+
+One final note. While the bibliography will be placed automatically at the end of the paper, we may have a few additional citations like R packages and other software to include that aren't explicitly cited elsewhere that we can include using the LaTeX syntax `\nocite{author:year, author:year}` (since we are using `natbib` for citations) as is demonstrated in the following bibliography.
+
+\nocite{bayesm:2018, loo:2018}
