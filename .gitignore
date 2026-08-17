@@ -1,25 +1,20 @@
-# Python
-/.venv
-
-# R
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
-# Apple
-.DS_Store
-
 # Folders
-/.quarto
-/.posit
+/.venv/
+/.quarto/
+/.posit/
 /output/*
 /private/*
 
 # Files
+*.quarto_ipynb
 *.pdf
 /code/src/*
 !/code/src/*.R
 !/code/src/*.py
 !/code/src/*.cpp
 !/code/src/*.stan
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
