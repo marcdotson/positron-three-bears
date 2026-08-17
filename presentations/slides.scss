@@ -1,0 +1,100 @@
+/*-- scss:defaults --*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap);
+
+// fonts
+$presentation-heading-font: Lato, sans-serif;
+$font-family-sans-serif: Lato, sans-serif;
+$presentation-font-size-root: 30px;
+
+// custom colors
+$aggie-blue: #0F2439;
+$fighting-white: #FFFFFF;
+$gray: #A2AAAD;
+$light-gray: #D3D3D3;
+$black: #000000;
+$sky-blue: #288DC2;
+$electric-blue: #01ADD8;
+$hunter-green: #006242;
+$sage-green: #6B9E85;
+$watermelon: #F16278;
+$tangerine: #F58220;
+$sunflower: #F6BD17;
+$sand: #D1CBBD;
+
+// colors
+$body-bg: $fighting-white;
+$body-color: $black;
+$secondary: $sky-blue;
+$tertiary: $hunter-green;
+$link-color: $electric-blue;
+$selection-bg: rgba(0, 0, 0, 0.99);
+
+/*-- scss:rules --*/
+#title-slide .title {
+  font-family: "Permanent Marker", cursive;
+}
+
+// Second "repeated" title slide, styled to match #title-slide
+.reveal .title-slide-repeat {
+  text-align: center;
+}
+
+.reveal .title-slide-repeat h2 {
+  font-family: "Permanent Marker", cursive;
+  color: $fighting-white;
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+}
+
+.reveal .title-slide-repeat .subtitle {
+  color: $light-gray;
+  font-size: 1em;
+  margin-bottom: 1.5em;
+}
+
+.reveal .title-slide-repeat .author {
+  color: $fighting-white;
+  font-size: 0.8em;
+}
+
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
+
+.reveal .permanent-marker-font {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+
+.reveal .lato-font {
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.75em;
+}
+
+.reveal .gray-box {
+  background-color: $light-gray;
+  height: 72%;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.reveal section h2 {
+  color: $secondary;
+}
+
+.h-center {
+  text-align: center;
+}
+
+.v-center {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+

@@ -1,0 +1,105 @@
+---
+format: 
+  revealjs:
+    theme: slides.scss     # Modified slides theme
+    code-copy: true        # Show code blocks copy button
+    # slide-number: c/t      # Numbered slides current/total
+    embed-resources: true  # Render to a single HTML file
+execute:
+  eval: false
+  echo: true
+  cache: false
+jupyter: python3
+---
+
+# Teaching Python <br>with Positron {.title-slide-repeat background-color="#0F2439"}
+
+::: {.subtitle}
+posit::conf(2026)
+:::
+
+::: {.author}
+Marc Dotson
+:::
+
+# Teaching Python (Locally) <br>with Positron {.title-slide-repeat background-color="#0F2439"}
+
+::: {.subtitle}
+posit::conf(2026)
+:::
+
+::: {.author}
+Marc Dotson
+:::
+
+## 
+
+::: {.columns .v-center}
+![](../figures/positron-three-bears_01.png){fig-align="center"}
+:::
+
+## 
+
+::: {.columns .v-center}
+![](../figures/positron-three-bears_02.png){fig-align="center"}
+:::
+
+## 
+
+::: {.columns .v-center}
+![](../figures/positron-three-bears_03.png){fig-align="center"}
+:::
+
+## 
+
+::: {.columns .v-center}
+![](../figures/positron-three-bears_04.png){fig-align="center"}
+:::
+
+## 
+
+:::: {.columns .v-center}
+
+::: {.column width="50%"}
+![](../figures/positron-three-bears_05.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+### Bear No. 1: Installing Python
+:::
+
+::::
+
+## 
+
+:::: {.columns .v-center}
+
+::: {.column width="50%"}
+![](../figures/positron-three-bears_06.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+### Bear No. 2: GitHub-Friendly Notebooks
+:::
+
+::::
+
+## 
+
+:::: {.columns .v-center}
+
+::: {.column width="50%"}
+![](../figures/positron-three-bears_07.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+### Bear No. 3: Scaling Compute
+:::
+
+::::
+
+## 
+
+::: {.columns .v-center}
+![](../figures/positron-three-bears_08.png){fig-align="center"}
+:::
