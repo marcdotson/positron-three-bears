@@ -56,6 +56,8 @@ Marc Dotson
 ![](../figures/positron-three-bears_04.png){fig-align="center"}
 :::
 
+## {background-image="../figures/positron-three-bears_04.png" background-size="cover"}
+
 ## 
 
 :::: {.columns .v-center}
