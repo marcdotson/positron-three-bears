@@ -7,7 +7,6 @@ title-slide-attributes:
 format: 
   revealjs:
     theme: slides.scss     # Modified slides theme
-    # slide-number: c/t      # Numbered slides current/total
     embed-resources: true  # Render to a single HTML file
 ---
 
@@ -33,7 +32,7 @@ format:
 
 ## {background-image="../figures/bears_04.png" background-size="contain"}
 
-## 
+## {background-color="#288DC2"}
 
 :::: {.columns .v-center}
 
@@ -42,30 +41,32 @@ format:
 :::
 
 ::: {.column width="50%"}
-### Bear No. 1: Installing Python
+### Bear No. 1: <br>Installing Python {.lato-font}
 :::
 
 ::::
+
+## 
+
+![](../figures/xkcd_python-env.png){fig-align="center"}
 
 ## 
 
 :::: {.columns .v-center}
 
-::: {.column width="50%"}
-![](../figures/logo_python.png){fig-align="center"}
-:::
-
-::: {.column width="50%" .fragment}
+::: {.column width="100%"}
 ![](../figures/logo_uv.png){fig-align="center"}
 :::
 
 ::::
 
-## 
+# How I Stopped Worrying and Learned to Love the CLI
+
+## Install Python via uv
 
 ![](../figures/python-01_install-python-via-uv.png)
 
-## 
+## {background-color="#6B9E85"}
 
 :::: {.columns .v-center}
 
@@ -74,34 +75,22 @@ format:
 :::
 
 ::: {.column width="50%"}
-### Bear No. 2: GitHub-Friendly Notebooks
+### Bear No. 2: <br>GitHub-Friendly Notebooks {.lato-font}
 :::
 
 ::::
 
 ## 
 
-:::: {.columns .v-center}
+![](../figures/logo_github.png){fig-align="center"}
 
-::: {.column width="50%"}
-![](../figures/logo_jupyter.png){fig-align="center"}
-:::
-
-::: {.column width="50%" .fragment}
-![](../figures/logo_quarto.png){fig-align="center"}
-:::
-
-::::
-
-## 
+## Quarto Inline Output
 
 ![](../figures/quarto-01_document.png)
 
-## 
+# Quarto 2
 
-![](../figures/quarto-02_qmd-to-pdf.png)
-
-## 
+## {background-color="#D1CBBD"}
 
 :::: {.columns .v-center}
 
@@ -110,7 +99,7 @@ format:
 :::
 
 ::: {.column width="50%"}
-### Bear No. 3: Scaling Compute
+### Bear No. 3: <br>Scaling Compute {.lato-font}
 :::
 
 ::::
