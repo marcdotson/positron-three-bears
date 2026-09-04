@@ -1,0 +1,51 @@
+- "Teaching Python with Positron"
+  + Or, more specifically, "Teaching Python *Locally* with Positron"
+  + Two years ago, I moved to a new university where I would be teaching Python instead of R
+  + As a longtime RStudio user, I was a bit terrified of the transition
+  + Fortunately, that summer Positon entered open beta
+  + At the time, I wrote in a blog post that for data science Positron was "just right"
+  + After actually teaching Python, I discovered I was in a different story
+- "Positron and the Three Bears"
+  + Bear 1: Installing Python with uv
+  + Bear 2: Creating GitHub-friendly notebooks with Quarto
+  + Bear 3: Accessing scalable compute resources with SSH
+
+- How do you demonstrate teaching Python with Positron?
+- Provide a link to the `data-stack` training repo
+- 20 minutes (including Q&A)
+
+- Slow down when I talk about Positron and the Three Bears —- let that sink in
+- Detail my transition to Python in more detail -- from marketing to data analytics, from R to Python
+- Positron helping to defeat some bad habits and teach
+- More room to breathe about the story with the hook
+- Share more about the three bears of teaching to signal where we’re going as part of the story of moving to teaching Python
+
+For polyglot data science, RStudio is too specific, VS Code is too general, but Positron is just right. However, it’s not without friction. With two years of experience teaching Python with Positron, I’ll discuss how Positron fits in the data stack and how it helps address the “three bears” of teaching Python. 
+
+Positron has recently been made available on [JupyterHub](https://positron.posit.co/blog/posts/2026-04-03-positron-server-jupyterhub/), which is a great place to start, but I think students need to be able to wean themselves off of web-based tools and learn how to manage local installations so that they can take it with them after graduation and be prepared for similar setups in practice.
+
+1. Installing Python and managing virtual environments (with uv, referencing "How I Stopped Worrying and Learned to Love the CLI")
+
+- Make the pain of installing clear, why uv is the best lightweight option
+- How I Stopped Worrying and Learned to Love the CLI
+- No longer needed! [uv bootstrap options in Python](https://opensource.posit.co/blog/2026-07-08_positron-uv/)
+- Screenshot/GIF showing install with uv
+- See updated `data-stack`
+
+2. Creating GitHub-friendly notebook workflows (with Quarto)
+
+- Using GitHub for collaboration, creating portfolios
+- Make the pain of Jupyter notebooks with GitHub clear
+- Positron's notebook editor for Jupyter Notebooks and Quarto with in-line support (`quarto.inlineOutput.enabled`)
+- Quarto not only GitHub-friendly, but also a means to an end (even if the end is a Jupyter Notebook)
+- Screenshot/GIF showing the notebook editor
+- Quarto 2 using an [automerge](https://automerge.org/) collaborative editor
+
+3. Accessing scalable compute resources (with SSH, Colab)
+
+- Make the pain of scalable compute clear (personal, clear; vulnerable with the OWL meme)
+- Now available on [JupyterHub](https://positron.posit.co/blog/posts/2026-04-03-positron-server-jupyterhub/)
+- See [Outgrowing Your Laptop With Positron](https://github.com/austin3dickey/ssh-demo) slides and demo
+- Screenshot/GIF showing SSH tunneling
+
+Fall is Positron's “teaching launch” with more opinionated bootstrapping. Reference Begin with Bayes, decision theory and probability? I hope my experience with Positron can help other attendees in their professional and personal efforts as instructors and mentors.
