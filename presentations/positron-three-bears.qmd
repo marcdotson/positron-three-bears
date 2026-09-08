@@ -8,6 +8,7 @@ format:
   revealjs:
     theme: slides.scss     # Modified slides theme
     embed-resources: true  # Render to a single HTML file
+    footer: "[github.com/marcdotson/positron-three-bears](https://github.com/marcdotson/positron-three-bears)"
 ---
 
 ## 
@@ -24,13 +25,13 @@ format:
 
 ::::
 
-## {background-image="../figures/bears_01.png" background-size="contain"}
+## {background-image="../figures/bears_01.png" background-size="contain" footer=false}
 
-## {background-image="../figures/bears_02.png" background-size="contain"}
+## {background-image="../figures/bears_02.png" background-size="contain" footer=false}
 
-## {background-image="../figures/bears_03.png" background-size="contain"}
+## {background-image="../figures/bears_03.png" background-size="contain" footer=false}
 
-## {background-image="../figures/bears_04.png" background-size="contain"}
+## {background-image="../figures/bears_04.png" background-size="contain" footer=false}
 
 ## {background-color="#288DC2"}
 
@@ -62,9 +63,7 @@ format:
 
 # How I Stopped Worrying and Learned to Love the CLI
 
-## Install Python via uv
-
-![](../figures/python-01_install-python-via-uv.png)
+# {background-image="../figures/python-01_install-python-via-uv.png" background-size="contain"}
 
 ## {background-color="#6B9E85"}
 
@@ -75,7 +74,7 @@ format:
 :::
 
 ::: {.column width="50%"}
-### Bear No. 2: <br>GitHub-Friendly Notebooks {.lato-font}
+### Bear No. 2: <br>Creating GitHub-Friendly Workflows {.lato-font}
 :::
 
 ::::
@@ -84,9 +83,7 @@ format:
 
 ![](../figures/logo_github.png){fig-align="center"}
 
-## Quarto Inline Output
-
-![](../figures/quarto-01_document.png)
+# {background-image="../figures/quarto-01_document.png" background-size="contain"}
 
 # Quarto 2
 
@@ -104,5 +101,5 @@ format:
 
 ::::
 
-## {background-image="../figures/bears_08.png" background-size="contain"}
+## {background-image="../figures/bears_08.png" background-size="contain" footer=false}
 
