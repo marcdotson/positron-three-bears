@@ -3,7 +3,6 @@ Introduction (~5 min)
 - Two years ago, I moved positions and began teaching Python instead of R
 - As a longtime R and RStudio user, I was a bit terrified of the transition
 - Fortunately, that summer Positon entered open beta (thanks to Julia and team)
-- Introduce Positron, first screenshot to set scene
 - I wrote in a blog post that for data science Positron was "just right"
 - "VS Code is too general, RStudio is too specific, but Positron is just right"
 - But after actually teaching Python, I discovered I was actually in a different story
@@ -13,23 +12,15 @@ Bear No. 1: Installing Python (~3 min)
 
 - Make the pain of installing clear, why uv is the best lightweight option
 - How I Stopped Worrying and Learned to Love the CLI
-- No longer needed! [uv bootstrap options in Python](https://opensource.posit.co/blog/2026-07-08_positron-uv/)
-- Screenshot/GIF showing install with uv
-- Templates for setting up virtual environments
-- Recognizes pyproject.toml or requirements.txt and will offer to set up the virtual environment
-- New Welcome page will go through a checklist to make sure you have everything you need to run Python
-- See updated `data-stack`
-- Let's you start with the code editor/IDE rather than the command line
+- No longer needed! uv bootstrap options in Python
 
 Bear No. 2: Creating GitHub-Friendly Workflows (~3 min)
 
-- We used to talk about "death by PowerPoint" but now its "death by notebooks"
 - Using GitHub for collaboration, creating portfolios
 - Make the pain of Jupyter notebooks with GitHub clear
-- Positron's notebook editor for Jupyter Notebooks and Quarto with in-line support (`quarto.inlineOutput.enabled`)
 - Quarto not only GitHub-friendly, but also a means to an end (even if the end is a Jupyter Notebook)
-- Screenshot/GIF showing the notebook editor
-- Quarto 2 using an [automerge](https://automerge.org/) collaborative editor
+- We used to talk about "death by PowerPoint" but now its "death by notebooks"
+- Positron's notebook editor for Jupyter Notebooks and Quarto with in-line support (`quarto.inlineOutput.enabled`)
 
 Bear No. 3: Scaling Compute (~3 min)
 

@@ -46,6 +46,8 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ::::
 
+# {background-image="../figures/positron-01_introduction.png" background-size="contain" footer=false}
+
 ## {background-image="../figures/bears_01.png" background-size="contain" footer=false}
 
 ## {background-image="../figures/bears_02.png" background-size="contain" footer=false}
@@ -74,17 +76,31 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ## 
 
-:::: {.columns .v-center}
-
-::: {.column width="100%"}
 ![](../figures/logo_uv.png){fig-align="center"}
-:::
-
-::::
 
 # How I Stopped Worrying and Learned to Love the CLI
 
-# {background-image="../figures/python-01_install-python-via-uv.png" background-size="contain"}
+# {background-image="../figures/positron-02_install-python-via-uv.png" background-size="contain" footer=false}
+
+# {background-image="../figures/positron-03_new-folder-from-template.png" background-size="contain" footer=false}
+
+## 
+
+:::: {.columns .v-center}
+
+::: {.column width="40%"}
+![](../figures/logo_positron.png){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+::: {.incremental}
+- Prompts install or use `Python: Install Python via uv` command
+- Recognizes existing virtual environment or use a project template
+- Let's students start with and stay in Positron, which even makes the command line easier
+:::
+:::
+
+::::
 
 ## {background-color="#006242"}
 
@@ -104,9 +120,27 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ![](../figures/logo_github.png){fig-align="center"}
 
-# {background-image="../figures/quarto-01_document.png" background-size="contain"}
+# "Death by Jupyter Notebook"
 
-# Quarto 2
+# {background-image="../figures/positron-04_quarto-document.png" background-size="contain" footer=false}
+
+## 
+
+:::: {.columns .v-center}
+
+::: {.column width="40%"}
+![](../figures/logo_positron.png){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+::: {.incremental}
+- Comes pre-installed, is text-based, and renders to various outputs
+- Option for in-line support with `quarto.inlineOutput.enabled`
+- Quarto 2 promises an automerge-based collaborative editor
+:::
+:::
+
+::::
 
 ## {background-color="#006242"}
 
@@ -118,6 +152,33 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ::: {.column width="50%"}
 ### Bear No. 3: <br>Scaling Compute {.permanent-marker-font}
+:::
+
+::::
+
+# Teaching Python *Locally* with Positron
+
+## 
+
+![](../figures/owl.png){fig-align="center"}
+
+## 
+
+![](../figures/logo_jupyterhub.png){fig-align="center"}
+
+## 
+
+:::: {.columns .v-center}
+
+::: {.column width="40%"}
+![](../figures/logo_positron.png){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+::: {.incremental}
+- Built-in remote virtual machine tunneling with SSH
+- JupyterHub license available for a cloud-based option
+:::
 :::
 
 ::::
