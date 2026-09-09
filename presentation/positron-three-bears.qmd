@@ -1,7 +1,6 @@
 ---
 title: "Teaching Python <br>with Positron"
 subtitle: "posit::conf(2026)"
-author: "Marc Dotson | Utah State University"
 title-slide-attributes:
   data-background-color: "#0F2439"
 format: 
@@ -10,6 +9,28 @@ format:
     embed-resources: true  # Render to a single HTML file
     footer: "[github.com/marcdotson/positron-three-bears](https://github.com/marcdotson/positron-three-bears)"
 ---
+
+## {background-color="#288DC2"}
+
+:::: {.columns .v-center}
+
+::: {.column width="50%"}
+![](../figures/marc.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+### Marc Dotson {.permanent-marker-font}
+
+Jon M. Huntsman School of Business <br>Utah State University
+
+{{< fa brands github >}} \@marcdotson
+
+{{< fa brands bluesky >}} \@marcdotson.com
+
+{{< fa brands linkedin >}} /in/marcdotson
+:::
+
+::::
 
 ## 
 
@@ -33,7 +54,7 @@ format:
 
 ## {background-image="../figures/bears_04.png" background-size="contain" footer=false}
 
-## {background-color="#288DC2"}
+## {background-color="#006242"}
 
 :::: {.columns .v-center}
 
@@ -42,7 +63,7 @@ format:
 :::
 
 ::: {.column width="50%"}
-### Bear No. 1: <br>Installing Python {.lato-font}
+### Bear No. 1: <br>Installing Python {.permanent-marker-font}
 :::
 
 ::::
@@ -65,7 +86,7 @@ format:
 
 # {background-image="../figures/python-01_install-python-via-uv.png" background-size="contain"}
 
-## {background-color="#6B9E85"}
+## {background-color="#006242"}
 
 :::: {.columns .v-center}
 
@@ -74,7 +95,7 @@ format:
 :::
 
 ::: {.column width="50%"}
-### Bear No. 2: <br>Creating GitHub-Friendly Workflows {.lato-font}
+### Bear No. 2: <br>Creating GitHub-Friendly Workflows {.permanent-marker-font}
 :::
 
 ::::
@@ -87,7 +108,7 @@ format:
 
 # Quarto 2
 
-## {background-color="#D1CBBD"}
+## {background-color="#006242"}
 
 :::: {.columns .v-center}
 
@@ -96,10 +117,10 @@ format:
 :::
 
 ::: {.column width="50%"}
-### Bear No. 3: <br>Scaling Compute {.lato-font}
+### Bear No. 3: <br>Scaling Compute {.permanent-marker-font}
 :::
 
 ::::
 
-## {background-image="../figures/bears_08.png" background-size="contain" footer=false}
+## {background-color="#288DC2" background-image="../figures/bears_08.png" background-size="contain" footer=false}
 
