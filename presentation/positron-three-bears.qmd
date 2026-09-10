@@ -56,16 +56,24 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ## {background-image="../figures/bears_04.png" background-size="contain" footer=false}
 
-## {background-color="#006242"}
+## {background-image="../figures/bears_05.png" background-size="contain" footer=false}
+
+## {background-image="../figures/bears_06.png" background-size="contain" footer=false}
+
+## {background-image="../figures/bears_07.png" background-size="contain" footer=false}
+
+## {background-image="../figures/bears_08.png" background-size="contain" footer=false}
+
+## 
 
 :::: {.columns .v-center}
 
-::: {.column width="50%"}
-![](../figures/bears_05.png){fig-align="center"}
+::: {.column width="60%"}
+![](../figures/bears_09.png){fig-align="center"}
 :::
 
-::: {.column width="50%"}
-### Bear No. 1: <br>Installing Python {.permanent-marker-font}
+::: {.column width="40%"}
+### Bear No. 1: <br>Installing Python {.permanent-marker-font .h-center}
 :::
 
 ::::
@@ -74,11 +82,21 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ![](../figures/xkcd_python-env.png){fig-align="center"}
 
-## 
+# {background-image="../figures/logo_uv.png" background-size="40%" background-opacity="1"}
 
-![](../figures/logo_uv.png){fig-align="center"}
+# {background-image="../figures/logo_uv.png" background-size="40%" background-opacity="0.2"}
 
-# How I Stopped Worrying and Learned to Love the CLI
+::: {.r-stack}
+
+::: {.r-fit-text .fade-in-then-out .h-center}
+Julia Silge's<br> "How I got unstuck with Python"<br> posit::conf(2025)
+:::
+
+:::
+
+# {background-image="../figures/logo_uv.png" background-size="40%" background-opacity="1"}
+
+# How I Stopped Worrying and Learned to Love the CLI {.h-center}
 
 # {background-image="../figures/positron-02_install-python-via-uv.png" background-size="contain" footer=false}
 
@@ -102,27 +120,45 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ::::
 
-## {background-color="#006242"}
+## 
 
 :::: {.columns .v-center}
 
 ::: {.column width="50%"}
-![](../figures/bears_06.png){fig-align="center"}
+![](../figures/bears_10.png){fig-align="center"}
 :::
 
 ::: {.column width="50%"}
-### Bear No. 2: <br>Creating GitHub-Friendly Workflows {.permanent-marker-font}
+### Bear No. 2: <br>GitHub-Friendly Workflows {.permanent-marker-font .h-center}
 :::
 
 ::::
 
+# {background-image="../figures/logo_github-jupyter_01.png" background-size="80%" background-opacity="1"}
+
+# {background-image="../figures/logo_github-jupyter_02.png" background-size="80%" background-opacity="1"}
+
+# {background-image="../figures/logo_github-jupyter_02.png" background-size="80%" background-opacity="0.2"}
+
+::: {.r-stack}
+
+::: {.fragment .r-fit-text .fade-in-then-out .h-center}
+JSON
+:::
+
+::: {.fragment .r-fit-text .fade-in-then-out .h-center}
+Oops! All <br>Notebooks
+:::
+
+:::
+
 ## 
 
-![](../figures/logo_github.png){fig-align="center"}
+![](../figures/logo_quarto.png){fig-align="center"}
 
-# "Death by Jupyter Notebook"
+# {background-image="../figures/positron-04_quarto-in-line.png" background-size="contain" footer=false}
 
-# {background-image="../figures/positron-04_quarto-document.png" background-size="contain" footer=false}
+# {background-image="../figures/positron-05_quarto-typst.png" background-size="contain" footer=false}
 
 ## 
 
@@ -134,37 +170,47 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ::: {.column width="60%"}
 ::: {.incremental}
-- Comes pre-installed, is text-based, and renders to various outputs
-- Option for in-line support with `quarto.inlineOutput.enabled`
+- Comes pre-installed, is text-based, and renders to various outputs (e.g., Typst)
+- Option for in-line output with `quarto.inlineOutput.enabled`
 - Quarto 2 promises an automerge-based collaborative editor
 :::
 :::
 
 ::::
 
-## {background-color="#006242"}
+## 
 
 :::: {.columns .v-center}
 
-::: {.column width="50%"}
-![](../figures/bears_07.png){fig-align="center"}
+::: {.column width="60%"}
+![](../figures/bears_11.png){fig-align="center"}
 :::
 
-::: {.column width="50%"}
-### Bear No. 3: <br>Scaling Compute {.permanent-marker-font}
+::: {.column width="40%"}
+### Bear No. 3: <br>Scaling Compute {.permanent-marker-font .h-center}
 :::
 
 ::::
 
-# Teaching Python *Locally* with Positron
+# Teaching Python *Locally* <br>with Positron {.h-center}
+
+# {background-image="../figures/remote-ssh.png" background-size="90%" background-opacity="1"}
+
+# {background-image="../figures/remote-ssh.png" background-size="90%" background-opacity="0.2"}
+
+::: {.r-stack}
+
+::: {.r-fit-text .fade-in-then-out .h-center}
+Austin Dickey's<br> "Outgrowing Your Laptop With Positron"<br> posit::conf(2025)
+:::
+
+:::
 
 ## 
 
 ![](../figures/owl.png){fig-align="center"}
 
-## 
-
-![](../figures/logo_jupyterhub.png){fig-align="center"}
+# {background-image="../figures/logo_jupyterhub.png" background-size="80%"}
 
 ## 
 
@@ -176,12 +222,12 @@ Jon M. Huntsman School of Business <br>Utah State University
 
 ::: {.column width="60%"}
 ::: {.incremental}
-- Built-in remote virtual machine tunneling with SSH
-- JupyterHub license available for a cloud-based option
+- Supports remote SSH for scaling compute with virtual machines
+- JupyterHub academic license available for a complete cloud-based option, email [academic-licenses@posit.co](mailto:academic-licenses@posit.co)
 :::
 :::
 
 ::::
 
-## {background-color="#288DC2" background-image="../figures/bears_08.png" background-size="contain" footer=false}
+## {background-image="../figures/bears_12.png" background-size="contain" footer=false}
 

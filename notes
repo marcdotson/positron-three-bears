@@ -3,31 +3,14 @@ Introduction (~5 min)
 - Two years ago, I moved positions and began teaching Python instead of R
 - As a longtime R and RStudio user, I was a bit terrified of the transition
 - Fortunately, that summer Positon entered open beta (thanks to Julia and team)
-- I wrote in a blog post that for data science Positron was "just right"
 - "VS Code is too general, RStudio is too specific, but Positron is just right"
 - But after actually teaching Python, I discovered I was actually in a different story
 - A story I'm calling "Positron and the Three Bears"
 
 Bear No. 1: Installing Python (~3 min)
 
-- Make the pain of installing clear, why uv is the best lightweight option
-- How I Stopped Worrying and Learned to Love the CLI
-- No longer needed! uv bootstrap options in Python
-
-Bear No. 2: Creating GitHub-Friendly Workflows (~3 min)
-
-- Using GitHub for collaboration, creating portfolios
-- Make the pain of Jupyter notebooks with GitHub clear
-- Quarto not only GitHub-friendly, but also a means to an end (even if the end is a Jupyter Notebook)
-- We used to talk about "death by PowerPoint" but now its "death by notebooks"
-- Positron's notebook editor for Jupyter Notebooks and Quarto with in-line support (`quarto.inlineOutput.enabled`)
+Bear No. 2: GitHub-Friendly Workflows (~3 min)
 
 Bear No. 3: Scaling Compute (~3 min)
-
-- Alternative to local installation, while still needing to learn installation and GitHub
-- Make the pain of scalable compute clear (personal, clear; vulnerable with the OWL meme)
-- Now available on [JupyterHub](https://positron.posit.co/blog/posts/2026-04-03-positron-server-jupyterhub/)
-- See [Outgrowing Your Laptop With Positron](https://github.com/austin3dickey/ssh-demo) slides and demo
-- Screenshot/GIF showing SSH tunneling
 
 Provide a QR code to the repo (include a `data-stack` link) and thank Joseph

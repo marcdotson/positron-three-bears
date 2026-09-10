@@ -33,40 +33,18 @@ $selection-bg: rgba(0, 0, 0, 0.99);
 /*-- scss:rules --*/
 #title-slide .title {
   font-family: "Permanent Marker", cursive;
+  font-size: 4em;
 }
 
-// // Second "repeated" title slide, styled to match #title-slide
-// .reveal .title-slide-repeat {
-//   text-align: center;
-// }
-
-// .reveal .title-slide-repeat h2 {
-//   font-family: "Permanent Marker", cursive;
-//   color: $fighting-white;
-//   font-size: 1.6em;
-//   margin-bottom: 0.5em;
-// }
-
-// .reveal .title-slide-repeat .subtitle {
-//   color: $light-gray;
-//   font-size: 1em;
-//   margin-bottom: 1.5em;
-// }
-
-// .reveal .title-slide-repeat .author {
-//   color: $fighting-white;
-//   font-size: 0.8em;
-// }
-
-// .reveal .slide-number > a[href*='title-slide'] {
-//   display: none;
-// }
+#title-slide .subtitle {
+  font-size: 1.3em;
+}
 
 .reveal .permanent-marker-font {
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .reveal .lato-font {
