@@ -94,6 +94,10 @@ Julia Silge's<br> "How I got unstuck with Python"<br> posit::conf(2025)
 
 :::
 
+::: footer
+[github.com/juliasilge/get-unstuck-with-python](https://github.com/juliasilge/get-unstuck-with-python)
+:::
+
 # {background-image="../figures/logo_uv.png" background-size="40%" background-opacity="1"}
 
 # How I Stopped Worrying and Learned to Love the CLI {.h-center}
@@ -204,6 +208,10 @@ Oops! All <br>Notebooks
 Austin Dickey's<br> "Outgrowing Your Laptop With Positron"<br> posit::conf(2025)
 :::
 
+:::
+
+::: footer
+[github.com/austin3dickey/ssh-demo](https://github.com/austin3dickey/ssh-demo)
 :::
 
 ## 
